@@ -1,0 +1,38 @@
+Entities:
+
+Each gym has:
+
+A name 
+An address (where the gym is located)
+A phone number (to contact the gym)
+Members:
+A member is someone who joins a gym. They provide their personal details to register. A member has:
+
+A unique id(like a membership ID)
+Last name and first name
+Address (where they live)
+Date of birth (to know their age)
+Gender
+Session:
+A session is a specific workout class that takes place at the gym. Each session has:
+
+A sport type (musculation , cross fit ..)
+A schedule (the date and time it happens)
+A limit of 20 members can join each session
+
+Coach:
+Coaches are the people who lead sessions. Each coach has:
+
+Last name and first name
+Age 
+Specialty (what type of workout they teach)
+
+Relationships:
+Gym and Member:
+A gym can have many members. Each member is registered at one gym. So, when someone joins a gym, they are linked to that specific gym.
+
+Member and Session:
+Members can join multiple sessions, and each session can have multiple members (up to 20). This means a member can attend different classes, and each class can have several members.
+
+Session and Coach:
+A session can be led by one or two coaches. Coaches teach classes, and they can lead multiple sessions.
